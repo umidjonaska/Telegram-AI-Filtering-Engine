@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+ENV/
+.env
+# Hugging Face / API tokens
+config.py
+*.session   # Telethon session fayllari
+HF_ACCESS_TOKEN
+OPENAI_API_KEY
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
