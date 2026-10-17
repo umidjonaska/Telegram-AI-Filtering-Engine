@@ -1,18 +1,18 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
+*.py[cod]
 venv/
+.venv/
 env/
-ENV/
+
+# Maxfiy ma'lumotlar
 .env
-# Hugging Face / API tokens
-config.py
-*.session   # Telethon session fayllari
-HF_ACCESS_TOKEN
-OPENAI_API_KEY
+# Telethon session fayllari (akkauntga to'liq kirish beradi!)
+*.session
+*.session-journal
+
+# Ma'lumotlar bazasi
+*.db
 
 # IDE / OS
 .vscode/

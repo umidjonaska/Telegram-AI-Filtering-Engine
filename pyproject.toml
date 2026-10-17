@@ -1,0 +1,16 @@
+[project]
+name = "telegram-ai-filtering-engine"
+version = "0.2.0"
+description = "Watches your Telegram chats and forwards job-related messages using an LLM classifier"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
